@@ -1,0 +1,11 @@
+{
+  "name": "rolldown-preserve-modules-rename-js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rolldown -c rolldown.config.ts && cat dist/annotations.js"
+  },
+  "devDependencies": {
+    "rolldown": "1.2.9"
+  }
+}

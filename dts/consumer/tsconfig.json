@@ -1,0 +1,1 @@
+{ "compilerOptions": { "module": "esnext", "moduleResolution": "bundler", "strict": true, "noEmit": true, "paths": { "ext-schema": ["./ext-schema.d.ts"] } }, "files": ["consumer.ts"] }
