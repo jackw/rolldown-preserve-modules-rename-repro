@@ -2,6 +2,8 @@
 
 `annotations.js` imports `AnnotationQuery` under an alias and declares its own `AnnotationQuery`. With `preserveModules`, rolldown renames the local declaration to `AnnotationQuery$1` when `annotations.js` is not an entry.
 
+Both folders install `@rolldown/browser` as `rolldown`, so that they run on StackBlitz. The native `rolldown` package gives the same output.
+
 ## js
 
 This folder has the JS case.

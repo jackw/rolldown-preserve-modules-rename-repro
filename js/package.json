@@ -5,7 +5,11 @@
   "scripts": {
     "build": "rolldown -c rolldown.config.ts && cat dist/annotations.js"
   },
+  "stackblitz": {
+    "installDependencies": false,
+    "startCommand": "npm install && npm run build"
+  },
   "devDependencies": {
-    "rolldown": "1.2.9"
+    "rolldown": "npm:@rolldown/browser@1.2.11"
   }
 }
